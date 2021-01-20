@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 100vh;
+    font-size: 24px;
+}
+
+.container {
+    flex: 3;
+    display: flex;
+    margin-bottom: 1em;
+}
+
+.details {
+    flex: 3;
+}
+
+.comment {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.submit {
+    flex: 1;
+    margin-top: auto;
+}
+
+.form-group {
+    display: flex;
+    margin: 1em;
+}
+
+.form-group label {
+    flex: 1;
+    text-align: right;
+    margin-right: 1em;
+}
+
+.form-group input {
+    flex: 3;
+    font-size: 1em;
+    border-radius: 10px;
+}
+
+.shipping {
+    text-align: center;
+}
+
+.shipping :nth-child(2) {
+    font-size: 1em;
+}
+
+.payment {
+    text-align: center;
+}
+
+.check {
+    text-align: center;
+}
+
+.check label :nth-child(1) {
+    order: 1;
+}
+
+.check label :nth-child(2) {
+    order: 2;
+}
+
+.comment textarea {
+    flex: 1;
+}
+
+.submit {
+    border: 1px solid black;
+}
